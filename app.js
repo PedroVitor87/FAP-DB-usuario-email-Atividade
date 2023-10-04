@@ -16,7 +16,7 @@ app.listen(port, () => {
 const db = mysql2.createConnection({
     host:'localhost',
     user:'root',
-    password:'981766219',
+    password:'root',
     database:'empresa'
 }); //Fazer a conexão com o Workbench com host, user, password, database
 
